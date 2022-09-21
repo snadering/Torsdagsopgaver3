@@ -2,7 +2,7 @@ class Main{
 
 	public static void main(String [] args){
 		//Task 1.c
-		printlfPalindrome("Den laks skal ned");
+		printIfPalindrome("Den laks skal ned");
 
 
 	
@@ -11,7 +11,7 @@ class Main{
 
 	}
 		//Task 1.a
-	public static void printlfPalindrome(String str){
+	public static void printIfPalindrome(String str){
 
 		str = str.toLowerCase(); //Task 1.b
 		String reversedString = "";
